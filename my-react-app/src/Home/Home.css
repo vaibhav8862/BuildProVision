@@ -1,0 +1,49 @@
+/* HomePage.css */
+
+.text-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .animated-text {
+    opacity: 0; /* Start with opacity set to 0 */
+    animation: fadeIn 1.5s ease-in-out forwards; /* Apply the fadeIn animation */
+    font-size: 3em; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    color: #ff0000; /* Adjust text color as needed */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .textE{
+    margin-top: 0.5cm;
+    font-size: 1.2em;
+  }
+ 
+  .Build{
+    margin-top: 1.5cm;
+  }
+  .line_design {
+    height: 5px;
+    background: #e67e22;
+    border-radius: 30px;
+}
+
+
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Apply a slight upward movement */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .animated-text {
+      font-size: 1.5em;
+    }
+  }
+  
